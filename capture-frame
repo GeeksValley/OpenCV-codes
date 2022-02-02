@@ -7,7 +7,7 @@ else:
 print(ret)
 print(type(frame))
 cv2.imshow('Frame from Webcam', frame)
-cv2.imwrite('test.jpg', frame)
+##cv2.imwrite('test.jpg', frame) un comment if u wana save pic
 cv2.waitKey(0)
 cap.release()
 cv2.destroyAllWindows()
